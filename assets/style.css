@@ -1,0 +1,248 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.banner{
+   width: 100%;
+   height: 120px;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
+  }
+
+  .banner header{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .banner header img{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+  }
+ 
+  .banner header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;;
+  }
+
+  .banner header ul li a{
+    text-decoration: none;
+    color: black;
+
+  }
+
+  .banner header ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    position: absolute;
+    background-color: rgb(18, 140, 210);
+    left: 0;
+    bottom:1px;
+    transition: 0.3s;
+  }
+  /*header start*/
+
+  .banner header ul li:hover::after{
+    width: 100%;
+
+  }
+  nav ul{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+
+}
+
+.logopng{
+    width: 120px;
+    cursor: pointer;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    
+
+
+}
+/*header end*/
+
+/*text start*/
+  .content{
+    width: 100%;
+    position: absolute;
+    top:150px;
+    text-align: center;
+  }
+   .content p{
+    color: rgb(228, 228, 95);
+    margin-bottom: 30px;
+   }
+
+/*text end*/
+   .favorite-body {
+    display: flex;
+    justify-content: space-between;
+}
+.favorite-body article {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.article-img {
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+.article-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.article-text #star {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 35px;
+    color: rgb(229, 229, 5);
+}
+.article-text #super {
+    position: absolute;
+    font-family: 'Open sans', sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 70px;
+    color: #8b8b8b;
+}
+.article-text h3 {
+    position: absolute;
+    font-family: 'Open sans', sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.article-text #monny {
+    position: absolute;
+    font-family: 'Open sans', sans-serif;
+    margin-left: 10px;
+    margin-top: 85px;
+    color: rgb(6, 229, 6);
+}
+.article-text #person {
+    position: absolute;
+    font-family: 'Open sans', sans-serif;
+    margin-left: 60px;
+    margin-top: 85px;
+}
+article hr {
+    width: 80%;
+    margin-top: 130px;
+    margin-left: 70px;
+    opacity: 0.4;
+}
+.article-text #clock {
+    position: absolute;
+    color: #8b8b8b;
+    margin-left: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.article-text #day {
+    position: absolute;
+    font-family: 'Open sans', sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #8b8b8b;
+    cursor: pointer;
+}
+.article-text #loc {
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 30px;
+    color: #8b8b8b;
+    cursor: pointer;
+}
+.article-text #los {
+    position: absolute;
+    font-family: 'Open sans', sans-serif;
+    margin-left: 150px;
+    margin-top: 30px;
+    color: #8b8b8b;
+    cursor: pointer;
+}
+.article-text #cl {
+    position: absolute;
+    font-family: 'Open sans', sans-serif;
+    margin-left: 150px;
+    margin-top: 30px;
+    color: #8b8b8b;
+    cursor: pointer;
+}
+.article-text #co {
+    position: absolute;
+    font-family: 'Open sans', sans-serif;
+    margin-left: 150px;
+    margin-top: 30px;
+    color: #8b8b8b;
+    cursor: pointer;
+}
+.article-text {
+    border: solid 1px gray;
+    border-top: 20px;
+    padding-bottom: 80px;
+}
+
+
+
+
+
+
+
+ 
+   
+
+
+    
+   
+
+
